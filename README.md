@@ -1,2 +1,2 @@
-# ScratchX-Mods.github.io
+# ScratchX-Mods
 Mods to add on to scratchx
