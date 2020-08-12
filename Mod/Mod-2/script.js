@@ -18,5 +18,6 @@
             [' ','alert %s','alert'],
         ]
      };
-    ScratchExtensions.register('ScratchX Mod2 by Daniel4-Scratch', descriptor, ext);
+    ScratchExtensions.register('ScratchX Mod2', 'By Daniel4-Scratch', ext);
 })({});
+//descriptor
