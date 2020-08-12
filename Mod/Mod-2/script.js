@@ -11,7 +11,7 @@
     ext.print = function() {
        print()
     };
-    ext.print = function(var) {
+    ext.popup = function(var) {
        alert(var)
     };
 
