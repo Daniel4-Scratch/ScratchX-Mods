@@ -33,5 +33,5 @@
             [' ','open url %s','url'],
         ]
      };
-    ScratchExtensions.register('ScratchJS', descriptor, ext);
+    ScratchExtensions.register('ScratchX Mod1 by spaceflyer234', descriptor, ext);
 })({});
