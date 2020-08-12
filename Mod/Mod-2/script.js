@@ -26,5 +26,5 @@
     };
 
     // Register the extension
-    ScratchExtensions.register('Mod2', descriptor, ext);
+    ScratchExtensions.register('JavaScript Addon PRO', descriptor, ext);
 })({});
