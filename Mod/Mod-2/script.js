@@ -5,7 +5,7 @@
     // Status reporting code
     // Use this to report missing hardware, plugin or unsupported browser
     ext._getStatus = function() {
-        return {status: 0, msg: 'Beta Mode (Not ready for public)'};
+        return {status: 1, msg: 'Beta Mode (Not ready for public)'};
     };
 
     ext.print = function() {
