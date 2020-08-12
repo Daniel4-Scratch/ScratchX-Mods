@@ -11,12 +11,16 @@
     ext.print = function() {
        print()
     };
+    ext.print = function(var) {
+       alert(var)
+    };
 
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
             // Block type, block name, function name
             [' ', 'Print Page', 'print'],
+            [' ', 'Window popup %s', 'popup'],
         ],
     url: 'https://daniel4-scratch.github.io/ScratchX-Mods/Mod/Mod-2/',
     };
