@@ -17,7 +17,7 @@
         blocks: [
             // Block type, block name, function name
             [' ', 'my first block', 'my_first_block'],
-        ]
+        ],
     url: 'http://info.scratch.mit.edu/WeDo',
     };
 
