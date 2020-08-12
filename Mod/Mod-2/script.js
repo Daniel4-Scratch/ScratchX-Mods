@@ -21,6 +21,11 @@
         var msg = new SpeechSynthesisUtterance(text);
         window.speechSynthesis.speak(msg);
     };
+    ext.html = function(text)
+     var myWindow;
+     myWindow = window.open("", "myWindow", "width=200,height=100");
+     myWindow.document.write(" + text + """)
+    };
 
     // Block and block menu descriptions
     var descriptor = {
@@ -30,6 +35,7 @@
             [' ', 'Window popup %s','popup'],
             [' ', 'Open URL %s','url'],
             [' ', 'Talk %s','talk'],
+            [' ', 'HTML %s','html'],
         ],
     url: 'https://daniel4-scratch.github.io/ScratchX-Mods/Mod/Mod-2/',
     };
