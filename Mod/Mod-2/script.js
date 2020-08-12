@@ -21,7 +21,7 @@
         var msg = new SpeechSynthesisUtterance(text);
         window.speechSynthesis.speak(msg);
     };
-    ext.html = function(text)
+    ext.html = function(text){
      var myWindow;
      myWindow = window.open("", "myWindow", "width=200,height=100");
      myWindow.document.write(" + text + """)
