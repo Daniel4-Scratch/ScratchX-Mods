@@ -8,19 +8,19 @@
         return {status: 2, msg: 'Ready'};
     };
 
-    ext.my_first_block = function() {
-        // Code that gets executed when the block is run
+    ext.print = function() {
+       print()
     };
 
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
             // Block type, block name, function name
-            [' ', 'my first block', 'my_first_block'],
+            [' ', 'Print Page', 'print'],
         ],
-    url: 'http://info.scratch.mit.edu/WeDo',
+    url: 'https://daniel4-scratch.github.io/ScratchX-Mods/Mod/Mod-2/',
     };
 
     // Register the extension
-    ScratchExtensions.register('My first extension', descriptor, ext);
+    ScratchExtensions.register('Mod2', descriptor, ext);
 })({});
