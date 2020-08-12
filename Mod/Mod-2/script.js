@@ -14,6 +14,9 @@
     ext.popup = function(text) {
        alert(text);
     };
+    ext.url = function(text){
+       window.open(text);
+    };
 
     // Block and block menu descriptions
     var descriptor = {
@@ -21,6 +24,7 @@
             // Block type, block name, function name
             [' ', 'Print Page','print'],
             [' ', 'Window popup %s','popup'],
+            [' ', 'Open URL %s','url'],
         ],
     url: 'https://daniel4-scratch.github.io/ScratchX-Mods/Mod/Mod-2/',
     };
