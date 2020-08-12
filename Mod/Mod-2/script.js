@@ -18,7 +18,6 @@
             // Block type, block name, function name
             [' ', 'my first block', 'my_first_block'],
         ]
-        url: 'https://github.com/Daniel4-Scratch/ScratchX-Mods'
     };
 
     // Register the extension
