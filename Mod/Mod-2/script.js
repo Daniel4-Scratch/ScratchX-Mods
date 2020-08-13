@@ -29,6 +29,9 @@
     ext.ask = function(text){
         return window.prompt("Project asking for input\n" + text);
     };
+    ext.ask2 = function(text){
+        return window.confirm(text);
+    };
 
     // Block and block menu descriptions
     var descriptor = {
@@ -40,6 +43,7 @@
             [' ', 'Talk %s','talk'],
             [' ', 'HTML %s','html'],
             ['r', 'Ask %s','ask'],
+            ['b', 'Ask %s','ask2'],
         ],
     url: 'https://daniel4-scratch.github.io/ScratchX-Mods/Mod/Mod-2/',
     };
