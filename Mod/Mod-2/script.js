@@ -15,7 +15,7 @@
        alert(text);
     };
     ext.url = function(text){
-       window.open(text);
+       window.open("Project said\n" + text);
     };
     ext.talk = function(text){
         var msg = new SpeechSynthesisUtterance(text);
@@ -25,6 +25,9 @@
      var myWindow;
      myWindow = window.open("", "myWindow", "width=200,height=100");
      myWindow.document.write(text)
+    };
+    ext.ask = function(text){
+        return window.prompt("Project asking for input\n" + text);
     };
 
     // Block and block menu descriptions
@@ -36,6 +39,7 @@
             [' ', 'Open URL %s','url'],
             [' ', 'Talk %s','talk'],
             [' ', 'HTML %s','html'],
+            ['r', 'Ask %s','ask'],
         ],
     url: 'https://daniel4-scratch.github.io/ScratchX-Mods/Mod/Mod-2/',
     };
